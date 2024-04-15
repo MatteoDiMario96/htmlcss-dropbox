@@ -8,18 +8,22 @@ body {
     max-width: 1420px;
     min-width: 1000px;
     font-family: 'sans-serif';
+    font-weight: lighter;
+    font-size: .8rem;
+    
 }
+
 
 nav {
     justify-content: space-between;
     align-items: center;
+    padding: 1rem .5rem;
+
 }
 
-nav  {
-    padding: 1rem .5rem;
-}
 
 main {
+    padding:2rem 0;
     /*Da togliere in seguito*/
     background-color: rgb(185, 249, 228);
 
@@ -40,35 +44,52 @@ ul {
 
 a {
     text-decoration: none;
-    color: black
+    color: #7a7a7a;
 }
+
+h1 {
+    font-size: 3.7rem;
+}
+
+p {
+    color: #7a7a7a;
+    line-height: 1rem;
+}
+
 
 nav  img {
     height: 18px;
-    width: 85px;
+    width: 90px;
 }
 
 nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
     margin-left: 1rem;
     margin-right: 1rem;
+
+    vertical-align: center;
+
 }
 
 section.jumbotron {
     background-color: #b4d0e7;
     width: 100%;
-
-    /*Da togliere in seguito*/ 
-    height: 500px;
-
+    padding:4rem 0 6rem;
 }
 
 div.jumbotron,
 div.footer {
     width: 62%;
-    background-color: white;
-    
-    /*Da togliere in seguito*/
-    height: 300px;
+    background-color: white;    
+}
+
+div.jumbotron > * {
+    margin-bottom: 1rem;
 }
 
 div.container-main {
@@ -86,4 +107,52 @@ div.container-main {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.bottone-blu {
+    background-color: #0061ff;
+    color: white;
+    padding: .3rem .6rem;
+    border: transparent;
+    font-size: .8rem;
+    
+
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.grigino {
+    color: #7a7a7a;
+}
+
+.dettagli-prova-gratuita {
+    width: 30%;
+}
+
+.jumbotron h1 {
+    padding-right: 6rem;
+}
+
+.relative {
+    position:relative
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bottom-right{
+    top: 8rem;
+    right: 0;
+}
+.bottom-left{
+    top: 22rem;
+    left: .2rem;
+}
+
+div.jumbotron img {
+    width: 687px;
+    height: 362px;
 }
