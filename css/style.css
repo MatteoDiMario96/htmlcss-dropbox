@@ -19,6 +19,15 @@ nav  {
     padding: 1rem .5rem;
 }
 
+main {
+    justify-content: center;
+    align-items: center;
+    /*Da togliere in seguito*/
+    background-color: rgb(185, 249, 228);
+
+    height: 2000px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -45,6 +54,7 @@ section.jumbotron {
     justify-content: center;
     align-items: center;
 
+    /*Da togliere in seguito*/ 
     height: 500px;
 
 }
@@ -54,8 +64,16 @@ div.footer {
     width: 62%;
     background-color: white;
     
-
+    /*Da togliere in seguito*/
     height: 300px;
+}
+
+div.container-main {
+    width: 50%;
+    height: 90%;
+
+    /*Da togliere in seguito*/
+    background-color: white;
 }
 
 .flex {
