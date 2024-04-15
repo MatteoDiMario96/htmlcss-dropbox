@@ -20,8 +20,6 @@ nav  {
 }
 
 main {
-    justify-content: center;
-    align-items: center;
     /*Da togliere in seguito*/
     background-color: rgb(185, 249, 228);
 
@@ -29,8 +27,6 @@ main {
 }
 
 footer {
-    justify-content: center;
-    align-items: center;
     background-color: rgb(165, 165, 165);
 
     /*Da togliere in seguito*/
@@ -60,9 +56,6 @@ nav ul li {
 section.jumbotron {
     background-color: #b4d0e7;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     /*Da togliere in seguito*/ 
     height: 500px;
@@ -88,4 +81,9 @@ div.container-main {
 
 .flex {
     display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
