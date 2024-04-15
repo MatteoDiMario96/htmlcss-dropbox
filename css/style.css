@@ -4,3 +4,60 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1420px;
+    min-width: 1000px;
+    font-family: 'open-serif';
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav  {
+    padding: 1rem .5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav  img {
+    height: 18px;
+    width: 85px;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section.jumbotron {
+    background-color: #b4d0e7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+
+}
+
+div.jumbotron,
+div.footer {
+    width: 62%;
+    background-color: white;
+    
+
+    height: 300px;
+}
+
+.flex {
+    display: flex;
+}
