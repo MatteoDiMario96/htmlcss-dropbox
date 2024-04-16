@@ -125,6 +125,10 @@ div.container-main {
     flex-wrap: wrap;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .bottone-blu {
     background-color: #0061ff;
     color: white;
@@ -226,4 +230,8 @@ blocco-3 {
 
 blocco-2 {
     width: 39%;
+}
+
+.less-width {
+    width: 50%;
 }
