@@ -25,17 +25,14 @@ nav {
 main {
     flex-direction: column;
     padding:2rem 0;
-    /*Da togliere in seguito*/
-    background-color: rgb(185, 249, 228);
 
-    height: 2000px;
 }
 
 footer {
-    background-color: rgb(165, 165, 165);
+    background-color: #000000;
 
-    /*Da togliere in seguito*/
-    height: 500px;
+    padding: 2.5rem 0;
+
 }
 
 ul {
@@ -58,7 +55,7 @@ h1 {
 }
 
 p {
-    color: #7a7a7a;
+    font-weight: 350;
     line-height: 1rem;
 }
 
@@ -74,12 +71,20 @@ nav ul li {
     align-items: center;
 }
 
+main section {
+    padding: 2rem 0;
+}
+
 nav ul li a {
     margin-left: 1rem;
     margin-right: 1rem;
 
     vertical-align: center;
 
+}
+
+section > *:not(.horizontal){
+    padding: 1.5rem 0; 
 }
 
 section.jumbotron {
@@ -90,8 +95,7 @@ section.jumbotron {
 
 div.jumbotron,
 .footer {
-    width: 62%;
-    background-color: white;    
+    width: 62%;    
 }
 
 div.jumbotron > * {
@@ -161,8 +165,32 @@ div.container-main.accordion h3 {
 .vertical-1,
 .vertical-2,
 .vertical-3 {
-    width: calc(33% - .4rem);
+    width: calc(33% - 2rem);
+
+    border: .5px solid #7a7a7a;
 }
+
+.vertical-1a,
+.horizontal-a {
+    padding: .3rem 0;
+    border-bottom: .5px solid #7a7a7a;
+}
+
+.vertical-1b,
+.vertical-1c {
+    padding: 1rem .5rem;
+}
+
+.horizontal {
+    border: .5px solid #7a7a7a;
+}
+
+.horizontal-b,
+.horizontal-c {
+    padding: .5rem .7rem;
+}
+
+
 
 
 
