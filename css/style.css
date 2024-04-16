@@ -235,3 +235,13 @@ blocco-2 {
 .less-width {
     width: 50%;
 }
+
+div.celestino {
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+div.container-main.accordion h2,
+div.container-main.accordion h3 {
+    border-bottom : .5px solid #7a7a7a;
+}
