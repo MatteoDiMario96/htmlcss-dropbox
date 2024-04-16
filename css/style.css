@@ -89,7 +89,7 @@ section.jumbotron {
 }
 
 div.jumbotron,
-div.footer {
+.footer {
     width: 62%;
     background-color: white;    
 }
