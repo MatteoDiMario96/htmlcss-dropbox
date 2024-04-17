@@ -13,7 +13,6 @@ body {
     
 }
 
-
 nav {
     justify-content: space-between;
     align-items: center;
@@ -43,20 +42,36 @@ nav ul {
     display: flex;
 }
 
+nav a {
+    color: #7a7a7a;
+}
+
+footer a {
+    color: white
+}
 
 nav a,
 footer a {
     text-decoration: none;
-    color: #7a7a7a;
 }
 
 h1 {
     font-size: 3.7rem;
 }
 
-p {
+h2 {
+    font-size: 1.8rem;
+}
+
+p,
+.p {
     font-weight: 350;
     line-height: 1rem;
+    font-size: .7rem;
+}
+
+.p {
+    margin-right: 2rem;
 }
 
 
@@ -83,27 +98,29 @@ nav ul li a {
 
 }
 
-section > *:not(.horizontal){
+main section > *:not(.horizontal){
     margin-top: 2rem; 
 }
 
 section.jumbotron {
+    padding: 3.5rem 0 4.5rem;
     background-color: #b4d0e7;
     width: 100%;
     /* padding:5rem 0 6rem; */
 }
+
 
 div.jumbotron,
 .footer {
     width: 62%;    
 }
 
-div.jumbotron > * {
-    margin-bottom: 1rem;
+div.jumbotron > *:not(i) {
+    margin-bottom: 1.7rem;
 }
 
 div.container-main {
-    width: 58%;
+    width: 50%;
     height: 90%;
 
     padding: 1.5rem 0;
@@ -179,17 +196,31 @@ img.partner {
 
 .vertical-1a,
 .horizontal-a {
-    padding: .3rem 0;
+    padding: .4rem 0;
     border-bottom: .5px solid #7a7a7a;
 }
 
+div.vertical-1a *,
+div.numero-utenti *,
+div.spazio-archiviazione *,
+div.condivisione-utenti * {
+    margin-right: .3rem;
+}
+
+
 .vertical-1b,
 .vertical-1c {
-    padding: 1rem .5rem;
+    padding: 1rem .8rem;
+}
+
+.vertical-1b *:not(.divisorio-piccolo),
+.vertical-1c * {
+    padding-bottom: .4rem; 
 }
 
 .horizontal {
     border: .5px solid #7a7a7a;
+    margin-top: 2rem;
 }
 
 .horizontal-b,
@@ -282,11 +313,11 @@ div.blocco-2 > img {
 }
 
 .bottom-right{
-    top: 8rem;
-    left: 18rem;
+    top: 12rem;
+    left: 16.5rem;
 }
 .bottom-left{
-    top: 22rem;
+    top: 27rem;
     left: .2rem;
 }
 
@@ -295,4 +326,9 @@ div.celestino {
     background-color: #b4d0e7;
     width: 100%;
 }
+
+.lingua {
+    color: #7a7a7a;
+}
+
 
