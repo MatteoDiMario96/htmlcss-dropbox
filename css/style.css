@@ -30,7 +30,7 @@ main {
 footer {
     background-color: #000000;
 
-    padding: 2.5rem 0;
+    padding: 4rem 0;
 
 }
 
@@ -105,6 +105,19 @@ nav ul li a {
 
     vertical-align: center;
 
+}
+
+footer li {
+    padding-bottom: .6rem;
+}
+
+footer li a {
+    font-size: .7rem;
+}
+
+footer li h3 {
+    padding-bottom: .9rem;
+    color: white;
 }
 
 main section > *:not(.horizontal){
@@ -207,7 +220,7 @@ article.flex.center.column h3 {
 .divisorio-piccolo {
     width: 20%;
     height: 1px;
-    border: .5px solid #7a7a7a;
+    border: .5px solid #e4e4e6;
 }
 
 .vertical-1,
@@ -314,6 +327,10 @@ div.blocco-2 > img {
     align-items: center;
 }
 
+.just-center {
+    justify-content: center;
+}
+
 .column {
     flex-direction: column;
 }
@@ -334,6 +351,17 @@ div.blocco-2 > img {
     background-color: #0061ff;
     color: white;
     padding: .5rem 0;
+    border: transparent;
+    font-size: .6rem;
+    width: 100%;
+    
+    
+}
+
+.bottone-blu-nav {
+    background-color: #0061ff;
+    color: white;
+    padding: .4rem .8rem;
     border: transparent;
     font-size: .6rem;
     width: 100%;
@@ -408,6 +436,11 @@ div.celestino {
 }
 .width20 {
     width: 20%;
+    
+}
+
+.width10 {
+    width: 10%;
     
 }
 
@@ -495,9 +528,35 @@ div.blocco-3 img {
     padding: .3rem;
     width: 30%;
     margin-top: .5rem;
+    background-color: white;
+    border: transparent;
 
+}
+
+
+
+.bottone-bianco-partner {
+    background-color: white;
+    border: 2px solid #636161;
+    padding: .5rem .6rem;
 }
 
 div.container-main.accordion h2 {
     padding-bottom: 2.5rem;
+}
+
+footer section {
+    padding: 2rem;
+}
+
+footer section.column * {
+    margin-top: 1rem;
+}
+
+div.lingua * {
+    margin-right: .3rem;
+}
+
+.fa-caret-up {
+    align-self: end;
 }
