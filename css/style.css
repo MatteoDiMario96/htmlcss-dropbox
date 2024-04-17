@@ -23,7 +23,7 @@ nav {
 
 main {
     flex-direction: column;
-    padding:2rem 0;
+    padding: 2rem 0 4rem;
 
 }
 
@@ -173,13 +173,13 @@ section.loghi img:not(div.logo-azienda-principale img){
 }
 
 div.container-main.accordion h2,
-div.container-main.accordion h3 {
+div.container-main.accordion div.domande-frequenti {
     border-bottom : .5px solid #7a7a7a;
     padding-bottom: 1.5rem;
 }
 
 div.celestino {
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 /* div.logo-azienda-principale {
     height: 150px;
@@ -484,4 +484,20 @@ div.blocco-3 img {
 
 .clear-channel{
     background-color: #0026cf;
+}
+
+.bordeux {
+    color: #60082c;
+}
+
+.bottone-bianco {
+    align-self: baseline;
+    padding: .3rem;
+    width: 30%;
+    margin-top: .5rem;
+
+}
+
+div.container-main.accordion h2 {
+    padding-bottom: 2.5rem;
 }
