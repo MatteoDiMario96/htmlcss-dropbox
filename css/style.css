@@ -113,6 +113,10 @@ section.jumbotron {
     /* padding:5rem 0 6rem; */
 }
 
+div.sx-jumbo * {
+    margin-bottom: 1rem;
+}
+
 
 div.jumbotron,
 .footer {
@@ -390,8 +394,18 @@ div.celestino {
     width: 60%;
 
 }
+
+.width30 {
+    width: 30%;
+    
+}
 .width20 {
     width: 20%;
+    
+}
+
+.width53 {
+    width: 53%;
     
 }
 
