@@ -55,6 +55,11 @@ footer a {
     text-decoration: none;
 }
 
+main a:link,
+main a:visited {
+    color: #0061ff;
+}
+
 h1 {
     font-size: 3.7rem;
 }
@@ -160,11 +165,11 @@ main div.container-main section article.flex img {
 section.loghi img:not(div.logo-azienda-principale img){
     height: 50%;
     width: 50%;
-    color: white;
+    object-fit: contain;
     
-    padding: 2rem 2rem;
     
-    background-color: rgb(217, 255, 184);
+    padding: 2rem 3rem;
+    
 }
 
 div.container-main.accordion h2,
@@ -290,9 +295,11 @@ div.blocco-2 {
 }
 
 div.blocco-2 > img {
-    height: 40%;
+    height: 30%;
     width: 50%;
 }
+
+
 
 .less-width {
     width: 50%;
@@ -409,6 +416,10 @@ div.celestino {
     
 }
 
+.margin-top2 {
+    margin-top: 2rem;
+}
+
 
 button.margin-top {
     margin-top: 1rem;
@@ -434,4 +445,43 @@ div.horizontal-c {
 div.horizontal-c button {
     /* margin-left: 1rem; */
     width: 100%;
+}
+
+div.blocco-1 img,
+div.blocco-3 img {
+    filter: invert(100%);
+}
+
+
+.designit {
+    background-color: #5c2b63;
+    border: 10px solid #301334
+}
+
+.arizona {
+    background-color: #9df7d4;
+}
+
+.uni-florida {
+    background-color: #00e3e3;
+}
+
+.topps {
+    background-color: #ff6b30;
+}
+
+.world-byc {
+    background-color: #29ffe0;
+}
+
+.hearst {
+    background-color: #4a2e17;
+}
+
+.lonely{
+    background-color: #f2db7d;
+}
+
+.clear-channel{
+    background-color: #0026cf;
 }
