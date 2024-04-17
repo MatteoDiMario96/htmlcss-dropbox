@@ -63,6 +63,10 @@ h2 {
     font-size: 1.8rem;
 }
 
+h4 {
+    font-size: .7rem;
+}
+
 p,
 .p {
     font-weight: 350;
@@ -181,7 +185,7 @@ img.partner {
     width: 30%;
 }
 .divisorio-piccolo {
-    width: 10%;
+    width: 20%;
     height: 1px;
     border: .5px solid #7a7a7a;
 }
@@ -210,12 +214,34 @@ div.condivisione-utenti * {
 
 .vertical-1b,
 .vertical-1c {
-    padding: 1rem .8rem;
+    padding: 1.1rem 1.2rem;
 }
 
-.vertical-1b *:not(.divisorio-piccolo),
-.vertical-1c * {
-    padding-bottom: .4rem; 
+.vertical-1b *:not(.divisorio-piccolo, h3),
+.vertical-1c:not(h4) * {
+    margin-bottom: .4rem; 
+}
+
+.vertical-1b > h3,
+div.horizontal-b h3 {
+    margin-bottom: .6rem;
+}
+
+.vertical-1c > h4{
+    margin-bottom: 1.2rem;
+}
+
+div.vertical-1b p.grigino,
+div.horizontal-b h4 {
+    margin-bottom: 2rem;
+}
+
+div.vertical-1c ul li i{
+    margin-right: .2rem;
+}
+
+div.flex.baseline.space-between {
+    padding: .7rem .7rem;
 }
 
 .horizontal {
@@ -277,14 +303,23 @@ div.blocco-2 > img {
     justify-content: space-between;
 }
 
+.baseline {
+    align-items: baseline;
+}
+
 .bottone-blu {
     background-color: #0061ff;
     color: white;
-    padding: .3rem .6rem;
+    padding: .5rem 0;
     border: transparent;
-    font-size: .8rem;
+    font-size: .6rem;
+    width: 100%;
     
     
+}
+
+.fa-check {
+    color: #0358ff;
 }
 
 .domande-frequenti {
@@ -332,3 +367,45 @@ div.celestino {
 }
 
 
+.width100 {
+    width: 100%;
+}
+.width80 {
+    width: 80%;
+
+}
+.width60 {
+    width: 60%;
+
+}
+.width20 {
+    width: 20%;
+    
+}
+
+
+button.margin-top {
+    margin-top: 1rem;
+}
+
+p.margin-top {
+    margin-top: .5rem;
+}
+
+div.divisorio-piccolo.margin-top {
+    margin-top: 1.5rem;
+}
+
+div.vertical-1c a {
+    color: #5050f2;
+}
+
+div.horizontal-c {
+    width: 25%;
+
+}
+
+div.horizontal-c button {
+    /* margin-left: 1rem; */
+    width: 100%;
+}
