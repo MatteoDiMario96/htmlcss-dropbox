@@ -316,6 +316,17 @@ div.blocco-2 > img {
     height: 30%;
     width: 50%;
 }
+div.container-main.accordion h2 {
+    padding-bottom: 2.5rem;
+}
+
+footer section {
+    padding: 2rem;
+}
+
+footer section.column * {
+    margin-top: 1rem;
+}
 
 
 
@@ -423,6 +434,80 @@ div.celestino {
 }
 
 
+
+
+
+
+button.margin-top {
+    margin-top: 1rem;
+}
+
+p.margin-top {
+    margin-top: .5rem;
+}
+
+div.divisorio-piccolo.margin-top {
+    margin-top: 1.5rem;
+}
+
+div.vertical-1c a {
+    color: #5050f2;
+}
+
+div.horizontal-c {
+    width: 25%;
+    
+}
+
+div.horizontal-c button {
+    /* margin-left: 1rem; */
+    width: 100%;
+}
+
+div.blocco-1 img,
+div.blocco-3 img {
+    filter: invert(100%);
+}
+
+
+.designit {
+    background-color: #5c2b63;
+    border: 10px solid #301334
+}
+
+
+.bottone-bianco {
+    align-self: baseline;
+    padding: .5rem;
+    width: 30%;
+    margin-top: .5rem;
+    background-color: white;
+    border: transparent;
+    color: #636161;
+    
+}
+
+
+
+.bottone-bianco-partner {
+    background-color: white;
+    border: 1.5px solid #636161;
+    padding: .5rem .6rem;
+}
+
+
+div.lingua * {
+    margin-right: .3rem;
+}
+
+.fa-caret-up {
+    align-self: end;
+}
+
+.margin-top2 {
+    margin-top: 2rem;
+}
+
 .width100 {
     width: 100%;
 }
@@ -453,49 +538,6 @@ div.celestino {
     width: 53%;
     
 }
-
-.margin-top2 {
-    margin-top: 2rem;
-}
-
-
-button.margin-top {
-    margin-top: 1rem;
-}
-
-p.margin-top {
-    margin-top: .5rem;
-}
-
-div.divisorio-piccolo.margin-top {
-    margin-top: 1.5rem;
-}
-
-div.vertical-1c a {
-    color: #5050f2;
-}
-
-div.horizontal-c {
-    width: 25%;
-
-}
-
-div.horizontal-c button {
-    /* margin-left: 1rem; */
-    width: 100%;
-}
-
-div.blocco-1 img,
-div.blocco-3 img {
-    filter: invert(100%);
-}
-
-
-.designit {
-    background-color: #5c2b63;
-    border: 10px solid #301334
-}
-
 .arizona {
     background-color: #9df7d4;
 }
@@ -526,43 +568,4 @@ div.blocco-3 img {
 
 .bordeux {
     color: #60082c;
-}
-
-.bottone-bianco {
-    align-self: baseline;
-    padding: .5rem;
-    width: 30%;
-    margin-top: .5rem;
-    background-color: white;
-    border: transparent;
-    color: #636161;
-
-}
-
-
-
-.bottone-bianco-partner {
-    background-color: white;
-    border: 1.5px solid #636161;
-    padding: .5rem .6rem;
-}
-
-div.container-main.accordion h2 {
-    padding-bottom: 2.5rem;
-}
-
-footer section {
-    padding: 2rem;
-}
-
-footer section.column * {
-    margin-top: 1rem;
-}
-
-div.lingua * {
-    margin-right: .3rem;
-}
-
-.fa-caret-up {
-    align-self: end;
 }
