@@ -17,6 +17,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem .5rem;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 
 }
 
@@ -125,7 +129,7 @@ main section > *:not(.horizontal){
 }
 
 section.jumbotron {
-    padding: 3.5rem 0 4.5rem;
+    padding: 6.5rem 0 4.5rem;
     background-color: #b4d0e7;
     width: 100%;
     /* padding:5rem 0 6rem; */
@@ -189,15 +193,12 @@ div.container-main.accordion h2,
 div.container-main.accordion div.domande-frequenti {
     border-bottom : .5px solid #7a7a7a;
     padding-bottom: 1.5rem;
+    padding-right: 1rem;
 }
 
 div.celestino {
     padding: 4rem 0;
 }
-/* div.logo-azienda-principale {
-    height: 150px;
-    width: 200px;
-} */
 
 img.partner {
     padding-right: 2rem;
@@ -226,7 +227,7 @@ article.flex.center.column h3 {
 .vertical-1,
 .vertical-2,
 .vertical-3 {
-    width: calc(33% - 2rem);
+    width: calc(33% - 1.8rem);
 
     border: .5px solid #7a7a7a;
 }
@@ -235,6 +236,10 @@ article.flex.center.column h3 {
 .horizontal-a {
     padding: .4rem 0;
     border-bottom: .5px solid #7a7a7a;
+}
+
+.horizontal-a * {
+    padding-right: .3rem;
 }
 
 div.vertical-1a *,
@@ -247,7 +252,7 @@ div.condivisione-utenti * {
 
 .vertical-1b,
 .vertical-1c {
-    padding: 1.1rem 1.2rem;
+    padding: 1.1rem 1rem;
 }
 
 .vertical-1b *:not(.divisorio-piccolo, h3),
@@ -399,7 +404,7 @@ div.blocco-2 > img {
 }
 
 .bottom-right{
-    top: 12rem;
+    top: 11.5rem;
     left: 16.5rem;
 }
 .bottom-left{
@@ -525,11 +530,12 @@ div.blocco-3 img {
 
 .bottone-bianco {
     align-self: baseline;
-    padding: .3rem;
+    padding: .5rem;
     width: 30%;
     margin-top: .5rem;
     background-color: white;
     border: transparent;
+    color: #636161;
 
 }
 
@@ -537,7 +543,7 @@ div.blocco-3 img {
 
 .bottone-bianco-partner {
     background-color: white;
-    border: 2px solid #636161;
+    border: 1.5px solid #636161;
     padding: .5rem .6rem;
 }
 
